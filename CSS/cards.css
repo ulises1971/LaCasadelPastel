@@ -1,0 +1,48 @@
+
+.cards { 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+ }
+    
+    
+
+.receta {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    width: 298px;
+}
+.foto {
+    height: 192px;
+    width: 298;
+}
+.recetaTitulo{
+    font-size: 1.5rem;
+    margin: 0.3rem 0.5rem;
+}
+
+.contenido {
+    font-size: 1.1rem;
+    line-height: 1.2;
+    text-align: center justify;
+    padding: 0.5rem 1rem;
+}
+
+.recetaContenido {
+    padding: 1rem;
+   
+}
+.botonReceta {
+    background: #8d0606;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    margin-left: 1rem;
+    padding: 8px;
+}
+.botonRec{
+    color: #fdfdfd;
+
+}

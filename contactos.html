@@ -1,0 +1,117 @@
+<!DOCTIPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>La Casa del Pastel</title>
+        <link rel="stylesheet" href="CSS/recet.css">
+        <link rel="stylesheet" href="CSS/estilo.css">
+        <link rel="stylesheet" href="CSS/header.css">
+        <link rel="stylesheet" href="CSS/cards.css">
+        <link rel="stylesheet" href="CSS/piePagina.css">
+        <link rel="stylesheet" href="CSS/contactos.css">
+    
+    </head>
+    <body>
+        <header class="headerPrincipal">
+            <div class="container">
+                <h1 class="headerTitulo">
+                    <img src="Imagenes/logo1.png" alt="Logo La Casa de Pastel">
+                </h1>
+    
+                <nav class="headerPrincipalNav">
+                    <ul class="headerPrincipalLista">
+                    <li class="headerNavLink"><a href="index.html">Inicio</a></li>
+                    <li class="headerNavLink"><a href="recetas.html">Recetas</a></li> 
+                    <li class="headerNavLink"><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+                    <li class="headerNavLink"><a href="contactos.html">Contactos</a></li> 
+                    </ul>
+                  
+             
+                </nav>
+            </div>
+    
+        </header>
+        <main class="contacto">
+            <form>
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="inputPadron" required>
+
+                <label for="correoelectronico">Correo Electrónico</label>
+                <input type="email" id="correoelectronico" class="inputPadron" required placeholder="email@dominio.com">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="inputPadron" required placeholder="(XX) XXXX XXXX">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+                
+                <fieldset>
+                    <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" >Email</label>
+                    
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" >Teléfono</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" checked>WhatsApp</label>
+                    
+                </fieldset>
+               
+                <fieldset>
+                    <legend>¿En cuál horario prefiere ser atendido?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+                
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la Casa del Pastel?</label>                
+                
+                <input type="submit" value="Enviar formulario" class="enviar">
+
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08h ~ 13h</td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>08h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>08h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>08h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>08h ~ 20h</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </main>
+        <footer class="piePagina">
+            <div class="pieContenido">
+                <img src="Imagenes/logo2.png" alt="logo">
+                <p class="copyright">&copy Copyright La casa de pastel - 2010</p>
+            </div>
+
+        </footer>
+    </body>

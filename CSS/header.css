@@ -1,0 +1,40 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+.headerPrincipal{
+    background-color: #cc9;
+    padding: 1em 0;
+ 
+  
+}
+.container {
+	width: 94%;
+	margin: 0 auto;
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+
+
+.headerPrincipalLista {
+    display: flex;
+	
+   
+}
+.headerNavLink{
+	font-family: 'Roboto', sans-serif;
+    padding: 10px;
+	margin: 0 0 1em 2em;
+	background-color: #fff;
+	transition: .5s;
+	display: block;
+    border: 3px solid #C0C0C0;
+	border-radius: 12%;
+	
+   
+}
+.headerNavLink:hover{
+	box-shadow: 3px 3px 3px #000000 ;
+}
